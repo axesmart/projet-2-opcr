@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+nav {
+    color: blue;
+
+}
+
+#Booki {
+
+    float: left;
+    display: inline;
+    color: blue;
+    font-family: raleway;
+    box-sizing: border-box;
+}
+
+
+#Hébergements {
+
+    float: right;
+    display: inline;
+    padding-right: 65px;
+    color: blue;
+    white-space: normal;
+
+}
+
+#Activités {
+
+
+    color: black;
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+}
+
+
+
+
+i {
+
+    color: blue;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1;
+
+}
+
+.fa-solid {
+
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 900;
+
+}
+
+.search-bar form i {
+    padding: 13px;
+    background-color: #f2f2f2;
+    border: 3px solid #f2f2f2;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+
+
+
+
+.a {
+    position: 0px 5px 0px 0px;
+}
+
+.b {
+    float: right;
+
+}
+
+p {
+    display: inline-block;
+
+
+}
+
+
+
+h1 {
+
+    color: black;
+    font-size: large;
+}
+
+h2 {
+    color: black;
+    font-weight: 10;
+    font-size: 16px;
+
+}
+
+head {
+    color: black;
+    /*il faut toute la partie p qui represente les filtres doivent être alignés*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+#économique {
+
+    background-color: white;
+    color: black;
+    size: 50px;
+}
+
+#Familial {
+
+    background-color: white;
+    color: black;
+}
+
+
+#Romantique {
+
+    background-color: white;
+    color: black;
+}
+
+
+#Animauxautorisés {
+
+    background-color: white;
+    color: black;
+
+}
+
+
+
+
+#fa {
+
+    color: black;
+    background-color: black;
+
+}
+
+#i12 {
+
+    color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+button:hover {
+
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: 0px 0px 0px 20px;
+    margin-left: -9px;
+    height: 27px;
+}
+
+#i.fa {
+
+    display: inline-block;
+    background-color: white;
+
+}
+
+.fa-solid.fa-location-dot {
+    color: black;
+    border-radius: 15px;
+    background-color: black;
+
+
+
+}
+
+input {
+
+    height: 20px;
+    width: 145px;
+    margin-left: 30px;
+
+}
+
+
+h3 {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+i.star {
+
+    height: 30px;
+    color: green;
+    background-color: black;
+}
+
+
+
+#card {
+    /*c'est le rectangle gris*/
+    background-color: lightgray;
+    color: lightgray;
+    opacity: 90%;
+    margin-bottom: 60px;
+}
+
+.box {
+
+
+    color: lightgray;
+    background-color: lightgray;
+    row-gap: -20px;
+    column-gap: 10px;
+    width: 60%;
+    padding-bottom: 500px;
+    height: 113px;
+
+
+}
+
+.box>* {
+
+    display: flex;
+    flex: 1 1 300px;
+
+
+
+}
+
+#texte {
+
+
+    padding-bottom: 50px;
+    float: center;
+}
+
+.fa-solid {
+
+    color: blue;
+    width: 5px;
+
+}
+
+.rond {
+
+    color: lightblue;
+    background-color: lightblue;
+    border: 7px solid lightblue;
+    border-radius: 50%;
+    height: 15px;
+    width: 17px;
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+
+.économique {
+
+    color: black;
+    background-color: black;
+    margin: auto;
+}
+
+#économique {
+
+    margin-left: -20px;
+    margin-top: ;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: ;
+    background-color: white;
+
+
+
+
+}
+
+#Familial {
+
+    margin-left: -20px;
+    margin-top: ;
+
+}
+
+
+
+#Romantique {
+
+    margin-left: -20px;
+
+}
+
+
+#Animauxautorisés {
+
+    margin-left: -20px;
+
+}
+
+#div {
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: wrap;
+    justify-content: center;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: larger
+}
+
+.card {
+
+
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    flex-wrap:wrap;
+
+}
+
+
+
+.droite {
+    width: 200px;
+}
+
+
+
+
+
+
+.gauche {
+
+    height: 125px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin: 7px;
+}
+
+.card1 {
+    margin-top: 2px;
+
+
+}
+
+h4 {
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 0px;
+    font-family: sans-serif;
+
+}
+
+title {
+    color: black;
+    padding-bottom: 180px;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box2 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    color: lightgrey;
+    border: 80px;
+    margin-left: 50px;
+    width: 30%;
+    padding: 20px;
+    align-items: center;
+
+
+}
+
+.card7 {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: lightgray;
+    border-radius: 20px;
+    border: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.hébergements h4 {
+    font-size: larger;
+    margin-left: 0px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 60px;
+
+
+}
+
+.boxfooter {
+
+    border: 100px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+
+}
+
+section {
+
+    display: flex;
+
+}
+
+#cards {
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+}
+
+.card8 {}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+
+#cardensemble {
+
+
+    display: flex;
+    justify-content:
+}
+
+p {
+    margin-top: 340px;
+    margin: left:10px;
+}
+
+
+h5 {
+
+    font-family: "Raleway", sans-serif;
+    color: black;
+    margin: 0px 0px 60px 0px;
+}
+
+.search-bar {
+
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h6{
+
+    color:black;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: space-between;
+
+}
+.fa-solid{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:blue;
+
+}
+.card_title.stars{
+
+    text-align: left;
+    padding-left: 6%;
+    margin-bottom: -18px;
+    color:blue;
+    flex-direction: row;
+
+
+}
+
+.card_title{
+
+margin: 20% 60% 0% 0% ;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
